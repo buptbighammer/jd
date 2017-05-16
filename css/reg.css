@@ -1,0 +1,178 @@
+body{
+	font-size:14px;
+	color:#666;
+}
+.header{
+	padding:0 100px;
+	height:110px;
+	box-shadow:0 3px 3px #eee;
+}
+.header .logo{
+	display:inline-block;
+	float:left;
+	margin-top:24px;
+	width:160px;
+	height:50px;
+	background:url("../image/icon.png") no-repeat;
+}
+.header .register{
+	float:left;
+	height: 34px;
+    line-height: 34px;
+    font-size: 24px;
+    color: #333;
+    padding-left: 30px;
+    margin-top: 34px;
+}
+.header .login{
+	float:right;
+	font-size: 16px;
+    margin-top: 55px;
+    color: #999;
+}
+.header .login a{
+	color:#333;
+}
+.main{
+	width:400px;
+	margin:0 auto;
+	padding:50px 0 60px 200px;
+	float:left;
+}
+.main .insert{
+	border:solid 1px #ddd;
+	width: 398px;
+    height: 52px;
+}
+.main .insert label{
+	width: 90px;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+    color:#666;
+}
+.main .insert input{
+	border:none;
+	outline:none;
+    width: 190px;
+    height: 19px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-top: 16px;
+    color:#000;
+}
+.main .note{
+	color: #c5c5c5;
+}
+.main .error{
+	color:#e22;
+	display:none;
+}
+.main .note,.main .error{
+    height: 27px;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.main .note p,.main .note span{
+	display:none;
+}
+.main .note p,.main .error p{
+	line-height:27px;
+}
+.main .note span,.main .error span{
+	width:20px;
+	height:27px;
+	line-height:27px;
+	text-align: center;
+	vertical-align:top;
+}
+.main .error p,.main .error span{
+	display:inline-block;
+}
+.main .check input{
+	width:18px;
+	height:18px;
+	border: solid 1px #cfd1d3;
+    vertical-align: text-top;
+}
+.main .check p{
+	display:inline-block;
+	height:18px;
+	line-height:18px;
+}
+.main .check p a{
+	color:#38f;
+}
+.main button{
+	margin-top:32px;
+	width:388px;
+	height:54px;
+	background:#e22;
+	font-size: 16px;
+	color:#fff;
+	text-align:center;
+	line-height:54px;
+	border:none;
+	outline:none;
+}
+.content .middle{
+	float:left;
+	margin:50px 120px 20px;
+	height:350px;
+	width:0;
+	border-left:solid 1px #e6e6e6;
+}
+.content .right{
+	float:left;
+	padding:50px 0 60px;
+	width:170px;
+	height:40px;
+}
+.content .right a{
+	display:block;
+	height:100%;
+}
+.content .right a:hover{
+	font-weight:700;
+	font-size:14px;
+	color:#000;
+}
+.content .right a span{
+	display: inline-block;
+	float:left;
+	height:100%;
+}
+.content .right a .content{
+	width:30px;
+	margin-right:15px;
+	height:100%;
+	vertical-align:middle;
+}
+.content .right hr{
+    margin: 30px 0;
+}
+.content .right a .company{
+	background:url("../image/icon.png") no-repeat 0 -50px;
+}
+.content .right a .global{
+	background:url("../image/icon.png") no-repeat -50px -50px;
+}
+.footer{
+	width:1120px;
+	margin:0 auto;
+	border-top:solid 1px #e6e6e6;
+	padding-bottom:30px;
+	text-align:center;
+}
+.footer .links{
+	padding:30px 0 15px;
+	color:#999;
+}
+.footer .links a{
+	margin:0 10px;
+	color:#999;
+}
+.footer .copyright{
+	color:#999;
+	font-size:12px;
+}
