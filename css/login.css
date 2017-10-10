@@ -1,0 +1,152 @@
+.header{
+	width:990px;
+	margin:0 auto;
+	height:100px;
+}
+.header .logo{
+	display:inline-block;
+	float:left;
+	margin-top:24px;
+	width:160px;
+	height:50px;
+	background:url("../image/icon.png") no-repeat;
+}
+.header p{
+	display:inline-block;
+	font-size:26px;
+	margin:36px 0 0 15px;
+}
+.container{
+	background-color:#be1355;
+}
+.container .main{
+	width:990px;
+	height:475px;
+	margin:0 auto;
+	background:url("../image/loginback.jpg") no-repeat left top;
+	position:relative;
+}
+.container .main .login{
+	width:346px;
+	background-color:#fff;
+	position:absolute;
+	top:40px;
+	right:0;
+}
+.container .main .login .errormsg{
+	visibility:hidden;
+	min-height: 23px;
+    margin: 5px auto;
+	height: 23px;
+    background: #ffebeb;
+    color: #e4393c;
+    border: 1px solid #faccc6;
+    padding: 3px 10px;
+    line-height: 15px;
+    width:306px;
+    box-sizing:border-box;
+}
+.container .main .login .errormsg span{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background:url("../image/pwd-icons-new.png") no-repeat -104px -49px;
+	margin-right:14px;
+}
+.container .main .login .errormsg p{
+	display:inline-block;
+	vertical-align:top;
+}
+.container .main .login h3{
+	font-size:18px;
+	height:18px;
+	line-height:18px;
+	padding:18px 18px;
+	font-weight: 700;
+    color: #e4393c;
+    border-bottom:1px solid #f4f4f4;
+}
+.container .main .login form{
+	width:306px;
+	margin:10px auto 33px;
+}
+.container .main .login form div{
+	border: 1px solid #bdbdbd;
+    height: 38px;
+    width: 304px;
+    margin-bottom: 20px;
+}
+.container .main .login form input,.container .main .login form button{
+	border:none;
+	outline:none;
+}
+.container .main .login form div label{
+	height:100%;
+	width:38px;
+	background-image:url("../image/pwd-icons-new.png");
+	background-repeat:no-repeat;
+	border-right: 1px solid #bdbdbd;
+	float:left;
+}
+.container .main .login form .pwd label{
+	background-position:-48px 0;
+}
+.container .main .login form div input{
+	width:265px;
+	height:100%;
+	float:left;
+	font-size:14px;
+	line-height:38px;
+	text-indent:1em;
+}
+.container .main .login form button{
+	width:304px;
+	border:1px solid #e85356;
+	background-color:#e4393c;
+	color:#fff;
+	height: 31px;
+    line-height: 31px;
+    font-size:18px;
+    text-align:center;
+    display:block;
+    box-sizing:content-box;
+}
+.container .main .login .register{
+	padding:0 20px;
+    line-height: 50px;
+    border-top: 1px solid #f4f4f4;
+    background-color: #fcfcfc;
+}
+.container .main .login .register a{
+	float:right;
+	color: #b61d1d;
+    font-size: 14px;
+    width:77px;
+    height:50px;
+    line-height:50px;
+}
+.container .main .login .register span{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	margin-right:5px;
+	vertical-align:middle;
+	background:url("../image/pwd-icons-new.png") no-repeat -104px -75px;
+}
+.footer{
+	width:990px;
+	margin:20px auto 30px;
+	text-align:center;
+}
+.footer .links{
+	padding:30px 0 15px;
+	color:#999;
+}
+.footer .links a{
+	margin:0 10px;
+	color:#999;
+}
+.footer .copyright{
+	color:#999;
+	font-size:12px;
+}

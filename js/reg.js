@@ -3,6 +3,7 @@ var Validation = {
 		if(elem.value.length === 0){
 			return false;
 		}
+		return true;
 	},
 	validateLength:function(elem,max,min){
 		if(elem.value.length < min){
@@ -96,7 +97,7 @@ function validateConfirmPwd(){
 		noteNode.style.display = "none";
 		errorNode.style.display = "block";
 		errorNode.getElementsByTagName("p")[0].innerText = "密码不能为空";
-	}else if(!Validation.validateSame(elem)){
+	}else if(!Validation.validateSame(elem,document.getElementById("pwd"))){
 		noteNode.style.display = "none";
 		errorNode.style.display = "block";
 		errorNode.getElementsByTagName("p")[0].innerText = "两次密码输入不一致";
@@ -116,16 +117,17 @@ function addBlurEvent(){
 }
 function commit(event){
 	EventUtil.preventDefault(event);
-	var elem = EventUtil.getTarget(event);
 	validateUserName();
 	validatePwd();
 	validateConfirmPwd();
 	var errorList = document.getElementsByClassName("error");
-	[].slice.apply(errorList).forEach(function(item){
-		if(item.style.display === "block"){
+	for(var i = 0;i<errorList.length;i++){
+		if(errorList[i].style.display === "block"){
 			return false;
 		}
-	});
+	}
+	localStorage.setItem(document.getElementById("username").value,document.getElementById("pwd").value);
+	window.open("index.html","_self");
 }
 function addCommitEvent(){
 	var button = document.getElementsByTagName("button")[0];

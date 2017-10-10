@@ -373,11 +373,12 @@ color:#c60c1b;
 	position:absolute;
 	top: 5px;
 	left: 140px;
-	padding:2px;
+	padding:1px;
 	line-height:12px;
 	height:12px;
 	text-align:center;
 	font-size: 12px;
+	min-width:12px;
 	font-family:'Microsoft YaHei';
 	-webkit-font-smoothing:antialiased;
 }
